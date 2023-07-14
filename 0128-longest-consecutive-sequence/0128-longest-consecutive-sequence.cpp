@@ -1,6 +1,7 @@
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
+        // O(n) time and space modified neetcode solution
         int longest = 0;
         unordered_set<int> numSet(nums.begin(), nums.end());
         
