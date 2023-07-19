@@ -44,5 +44,4 @@ class Solution:
             if substring_length - max_frequency <= k:
                 return True
 
-        # we didn't a valid substring of the given size
         return False
